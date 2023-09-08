@@ -1,15 +1,17 @@
 <h2>Assignment 2 - Echo, World!</h2>
 <p>In this assignment we want to extend the WebSocket app to Echo what we type in a text field into a composable Text element that fills most of the screen. You will send data to the echo server when you push the Button.</p>
 <p>The App Design - feel free to rearrange this design, but you get the idea...</p>
-<p><img alt="The App Design" src="assignment_02_design.png" /></p>
+<p><img alt="The App Design" src="resources/assignment_02_design.png" /></p>
 <p>A Column layout seems appropriate to me with Text Field, Text, and Button elements.</p>
 <p>The official Jetpack Compose page has an <a href="https://developer.android.com/jetpack/compose/text/user-input">article on User Input</a> you should read.</p>
 <h3>The WebSocket Echo Server</h3>
 <p>You have the web socket echo server code in the <a href="https://github.com/palmerc/PGR208_Lecture02">GitHub repository for Lecture 2</a>.</p>
 <p>Under <code>scripts/wsecho</code> there is a python script that will serve as your Echo server and the README gives you a 'how-to' on getting it to run. I've add a bit of diagnostic output to help you identify your IP address and you should see incoming messages displayed on the console.</p>
+<h3>Submission</h3>
+<p>Clean your project and Zip it and upload to Canvas. Alternatively, upload it to Github and send the link to the Canvas assignment. Also use the Screenshot app or similar to take a movie of your app in action. This is either uploaded to Canvas or added to the git repository.</p>
 <h3>Note</h3>
 <p>Don't forget to change the IP address hardcoded in the example code of the client to use the one your machine has!</p>
-<p><img alt="The hardcoded URL" src="assignment_02_url.png" /></p>
+<p><img alt="The hardcoded URL" src="resources/assignment_02_url.png" /></p>
 <p>The IP address can be found in your network configuration or by starting the echo server.</p>
 <p>On a Mac</p>
 <pre><code>ifconfig en0
@@ -17,4 +19,3 @@
 <p>On Windows</p>
 <pre><code>ipconfig /all
 </code></pre>
-<p>Finally, I will post my solution on <a href="https://github.com/palmerc/PGR208_EchoWorld.git">GitHub</a>.</p>

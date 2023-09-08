@@ -16,6 +16,10 @@ You have the web socket echo server code in the [GitHub repository for Lecture 2
 
 Under `scripts/wsecho` there is a python script that will serve as your Echo server and the README gives you a 'how-to' on getting it to run. I've add a bit of diagnostic output to help you identify your IP address and you should see incoming messages displayed on the console.
 
+### Submission
+
+Clean your project and Zip it and upload to Canvas. Alternatively, upload it to Github and send the link to the Canvas assignment. Also use the Screenshot app or similar to take a movie of your app in action. This is either uploaded to Canvas or added to the git repository.
+
 ### Note
 
 Don't forget to change the IP address hardcoded in the example code of the client to use the one your machine has!
@@ -32,4 +36,3 @@ On Windows
 
     ipconfig /all
 
-Finally, I will post my solution on [GitHub](https://github.com/palmerc/PGR208_EchoWorld.git).
