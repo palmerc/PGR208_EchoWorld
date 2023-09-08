@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.cameronpalmer.echoworld"
+    namespace = "no.kristiania.echoworld"
     compileSdk = 33
 
     defaultConfig {
