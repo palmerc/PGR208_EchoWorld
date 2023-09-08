@@ -62,6 +62,7 @@ private class EchoWebSocketListener : WebSocketListener() {
         output("Receiving : " + text!!)
     }
 
+    // This will be unused in this assignment, but we'll leave it here
     override fun onMessage(webSocket: WebSocket, bytes: ByteString) {
         output("Receiving bytes : " + bytes!!.hex())
     }
