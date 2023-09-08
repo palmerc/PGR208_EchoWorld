@@ -1,4 +1,4 @@
-package com.cameronpalmer.echoworld.ui.theme
+package no.kristiania.echoworld.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

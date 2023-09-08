@@ -1,4 +1,4 @@
-package com.cameronpalmer.echoworld
+package no.kristiania.echoworld
 
 import android.os.Bundle
 import android.util.Log
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.cameronpalmer.echoworld.ui.theme.EchoWorldTheme
+import no.kristiania.echoworld.ui.theme.EchoWorldTheme
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Request.Builder

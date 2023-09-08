@@ -1,4 +1,4 @@
-package com.cameronpalmer.echoworld.ui.theme
+package no.kristiania.echoworld.ui.theme
 
 import android.app.Activity
 import android.os.Build

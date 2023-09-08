@@ -8,7 +8,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.cameronpalmer.echoworld"
+        applicationId = "no.kristiania.echoworld"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

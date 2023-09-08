@@ -1,4 +1,4 @@
-package com.cameronpalmer.echoworld.ui.theme
+package no.kristiania.echoworld.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
